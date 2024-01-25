@@ -1,0 +1,16 @@
+#include <iosstream>
+using namespace std;
+
+int main (){
+    double length;
+    double height;
+
+    cin >> length;
+    cin >> height;
+
+    int lenght =5;
+    int height = 10;
+
+
+
+}
