@@ -1,0 +1,11 @@
+#include <iostream>
+using namespce std;
+
+ int main()
+ {
+    int coffee;
+    cout<<
+    switch(coffee){
+        case 1:
+    }
+ }
