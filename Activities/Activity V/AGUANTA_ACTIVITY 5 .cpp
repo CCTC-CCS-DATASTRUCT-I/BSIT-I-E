@@ -20,5 +20,4 @@ int main(){
     
     }
  }
-Write to Marc Lyster Gomez Canillo
 
