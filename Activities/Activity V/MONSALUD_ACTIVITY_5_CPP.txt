@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+    int age;
+    cout << "Hello here are the categories based on your ticket!"<<endl;
+    cout << "Free: Age 0-3 get free tickets."<<endl;
+    cout << "Discounted: Ages 4-6 get discounted tickets."<<endl;
+    cout << "normal: Ages 7+ get a normal ticket."<<endl;
+
+    cin >> age;
+    
+    if (age >= 0 && age <=3); {
+        cout << "You recieved a Free ticket!";
+    } else if (age <=4 && age <=6) {
+        cout << "You recieved discounted ticket!";
+    }else if (age >=7) {
+        cout << "You recieved normal ticket!";
+    }
+    }
+}
