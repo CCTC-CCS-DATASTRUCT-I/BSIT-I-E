@@ -16,5 +16,5 @@ int main() {
     double average = sum / 10;
     cout << "Average: " << average << endl;
 
-    return 0;
+    
 }
