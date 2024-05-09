@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-Public Class Trocio_Activity_1.java{
+Public Class Trocio_Activity_I.java{
     public static void main(String[] args){
 
         Scanner Sagunsara = new Scanner(System.in);
