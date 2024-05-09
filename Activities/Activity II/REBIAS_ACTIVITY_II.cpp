@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-    int num1; 
-    int num2;
+int x, y;
+   cout << "Enter your first number: ";
+   cin >> x;
+   cout << "Enter your second number: ";
+   cin >> y;
+   int sum = x + y;
+   int diff = x - y;
+   int prod = x * y;
 
-    cout << "Enter first number: ";
-    cin >> num1; 
-    cout << "Enter second number: ";
-    cin >> num2;
-
-    int sum = num1
-
+   cout << "Sum is: " << sum << endl;
+   cout << "Diff is: " << sum << endl;
+   cout << "Prod is: " << sum << endl;
+  
+  
 }
