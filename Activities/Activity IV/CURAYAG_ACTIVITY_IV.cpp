@@ -9,19 +9,19 @@ int main(){
 
   switch(coffee) {
 
-    case '1';
+    case 1:
     cout << "Espresso";
     break;
 
-    case '2';
+    case 2:
     cout << "Americano";
     break;
 
-    case '3';
+    case 3:
     cout << "Cappuccino";
     break;
 
-    case '4';
+    case 4:
     cout << "Latte";
     break;
 
