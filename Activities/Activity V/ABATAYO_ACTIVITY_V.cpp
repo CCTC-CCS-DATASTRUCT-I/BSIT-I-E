@@ -1,21 +1,19 @@
 #include <iostream>
-using namespace;
+using namespace std;
 
 int main() {
     int age;
     cout<<"Enter age:";
     cin>>age;
      
-     if(age >= 7) {
+     if(age >= 0 && age <=3) {
        cout << "Get normal ticket";
      
-     }
-     else if (age <= 6 && age >= 4); {
+     } else if (age>= 6 && age <= 4); {
        cout << "get discounted tickets"
 
-    else if(age >= 0 && <= 3);
-    cout << "get free tickets";
-    
+     }else{
+         cout << "Normal Ticket";
     
     }
 }
