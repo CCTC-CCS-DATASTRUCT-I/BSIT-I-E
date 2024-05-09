@@ -2,46 +2,20 @@
 
 using namespace std;
 
-int main(){
+int main() {
     int age;
-    cout << "Enter age: ";
+    cout << "Enter age (0-8): ";
     cin >> age;
 
-    switch(age){
-        case 0:
+    if (age >= 0 && age <= 3) {
         cout << "Free";
-        break;
-
-        case 1:
-        cout << "Free"; 
-        break;
-
-        case 2:
-        cout << "Free";
-        break;
-
-        case 3:
-        cout << "Free";
-        break;
-
-        case 4:
+    } else if (age >= 4 && age <= 6) {
         cout << "Discounted";
-        break;
-
-        case 5:
-        cout << "Discounted";
-        break;
-
-        case 6:
-        cout << "Discounted";
-        break;
-
-        case 7:
-        cout << "Normal";  
-        break;
-
-        case 8:
-        cout <<"Normal";
-
+    } else if (age >= 7 && age <= 8) {
+        cout << "Normal";
+    } else {
+        cout << "Invalid age";
     }
+
+
 }
