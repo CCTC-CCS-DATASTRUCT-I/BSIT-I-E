@@ -2,16 +2,21 @@
 using namespace std;
 
 int main() {
-    int math;
-    cout << "Do you want to start the transaction?"; // Type yes or no and enter
-    cin >> amount; // Get user input from the keyboard
-    int price1 = 0;
-    int price2 = 0;
-
-    while(price2 <= amount){
-        price1+=price2;
-        price2++;
+   
+    string answer;
+    double totalPrice;
+    double price; 
+    cout << "Do you want to start the transaction? (yes/no): ";
+    cin >> answer;
+    while (answer == "yes") { 
+        cout << "Enter the amount: ";
+        cin >> price;    
+        totalPrice += price;    
+        cout << "Do you want to continue? (yes/no): ";
+        cin >> answer;
     }
-    cout<<price1;
 
+    cout << "Total amount: " << totalPrice << endl;
+
+   
 }
