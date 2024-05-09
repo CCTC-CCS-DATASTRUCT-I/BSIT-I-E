@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main() {
@@ -12,7 +14,8 @@ int main() {
     cout << "Enter the number of the name you would like to select (1-5): ";
     int selectedNumber;
     cin >> selectedNumber;
-    cin.ignore(); 
+    cin.ignore();
+
     if (selectedNumber >= 1 && selectedNumber <= 5) {
         cout << "Selected name: " << names[selectedNumber - 1] << endl;
     } else {
