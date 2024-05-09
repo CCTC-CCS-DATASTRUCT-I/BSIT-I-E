@@ -1,23 +1,25 @@
 #include <iostream>
-using namespace std;\
-
+using namespace std;
 int main () {
     
-
-int redhorse;
-    cout<<"Enter a number (1.Espresso 2.Americano 4.Latte):"
-    cin >> redhorse
-
-    switch (redhorse){
-        case 1:
-        cout << "Espresso";
+    int coffee;
+    cout << "choose your coffee (1. espreso, 2. americano, 3. cappuccino, 4. latte): ";
+    cin >> coffee;
+    switch (coffee) {
+        case '1':
+        cout << "espreso";
         break;
-        case 2: "Americano";
+        case '2':
+        cout << "americano";
         break;
-        case 3: "Capuccino";
+        case '3':
+        cout << "cappuccino";
         break;
-        case 4: "Latte";
+        case '4':
+        cout << "latte";
         break;
+        default:
+        cout << "invalid choice";
     }
 
 }
