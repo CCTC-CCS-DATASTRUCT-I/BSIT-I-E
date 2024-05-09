@@ -1,15 +1,26 @@
-public class CANTEBEROS_ACTIVITY_II {
+#include <iostream>
+#include <string>
 
-    public static void main (String [] args) {
-        Scanner sc = new Scanner(System.in);
+using namespace std;
 
-        int [] scores = new int[10];
+int main() {
+    string names[5];
 
-        for (int i = 0; i < scores.lenght; i++) {
-            System.out.print("Enter score " + (i + 1) + ": ");
-            scores[i] = sc.nextLine();
-            sum += scores[i];
-        }
-        System.out.println(sum);
+    for (int i = 0; i < 5; i++) {
+        cout << "Enter name " << (i + 1) << ": ";
+        getline(cin, names[i]);
     }
+
+    cout << "Enter the number of the name you would like to select (1-5): ";
+    int selectedNumber;
+    cin >> selectedNumber;
+    cin.ignore();
+
+    if (selectedNumber >= 1 && selectedNumber <= 5) {
+        cout << "Selected name: " << names[selectedNumber - 1] << endl;
+    } else {
+        cout << "Invalid selection. Please choose a number between 1 and 5." << endl;
+    }
+
+    return 0;
 }
